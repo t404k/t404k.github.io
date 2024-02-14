@@ -17,17 +17,18 @@ top: 0px;
 width: 100%;
 height: 100%;
 z-index: 9999;
-background-color: #000;
-display:flex;
-flex-direction:column;
-justify-content:center;
+background-color: #111;
+background-image: url("img/loading.gif");
+flex-direction: column;
+background-position:center;
+background-repeat: no-repeat;
 }
 
 </style>
 </head>
 <body style="font-family:Verdana">
 
-<div class="loader" ><img src="img/loading.gif"></div>
+<div class="loader"></div>
 <script>
 window.onload = function()
 {$('.loader').fadeOut();}
@@ -43,12 +44,16 @@ window.onload = function()
 
 <div id="s">
 <div id="m3" class="outer"></div>
+<br>
 <div id="m4" class="outer"></div>
+<br>
 <div id="m5" class="outer"></div>
 </div>
 <div id="l">
 <div id="m2" class="outer"></div>
+<br>
 <div id="m1" class="outer"></div>
+<br>
 <div id="m6" class="outer"></div>
 </div>
 
