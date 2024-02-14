@@ -1,0 +1,164 @@
+@media (max-width:320px)  {
+  #not {
+  font-size:2vw;
+  }
+  #play,
+  #pause {
+  	float: right;
+  	width: 2vw;
+  }
+}
+@media (max-width:481px)  {
+  #not {
+    font-size:2vw;
+  }
+  #play,
+  #pause {
+  	float: right;
+  	width: 2vw;
+  }
+}
+@media (max-width:641px)  {
+  #not {
+    font-size:2vw;
+  }
+  #play,
+  #pause {
+  	float: right;
+  	width: 3vw;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: #d7d7d7;
+  font-size:2vw;
+}
+
+#m1 {
+  width:25vw;
+  height:35vw;
+  background-image: url("img/1.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px outline #eee;
+  padding:7px;
+  outline-offset:-10px
+}
+
+#m2 {
+  width:25vw;
+  height:35vw;
+  background-image: url("img/2.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px outline #eee;
+  padding:7px;
+  outline-offset:-10px
+}
+
+#m3 {
+  width:25vw;
+  height:35vw;
+  background-image: url("img/3.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px outline #eee;
+  padding:7px;
+  outline-offset:-10px
+}
+
+#m4 {
+  width:25vw;
+  height:35vw;
+  background-image: url("img/4.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px outline #eee;
+  padding:7px;
+  outline-offset:-10px
+}
+
+#m5 {
+  width:25vw;
+  height:35vw;
+  background-image: url("img/5.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px outline #eee;
+  padding:7px;
+  outline-offset:-10px
+}
+
+#m6 {
+  width:25vw;
+  height:35vw;
+  background-image: url("img/6.png");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px outline #eee;
+  padding:7px;
+  outline-offset:-10px
+}
+
+div {
+  white-space: normal;
+}
+
+#play,
+#pause {
+	float: right;
+	width: 3vw;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
+
+.outer {
+  outline: 10px solid #333;
+  border: 1px solid #333;
+  background-color: #333;
+}
+
+#s {
+  padding-left: 5px;
+  float: left;
+  padding-right:5px;
+}
+
+#l {
+  padding-right: 5px;
+  float: right;
+  padding-left:5px;
+}
+
+.heart {
+  position: fixed;
+  font-size: 1.5rem;
+  top: -1vh;
+  transform: translateY(0);
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  from {
+     transform: translateY(0vh) translateX(-10vw);
+  }
+  to {
+     transform: translateY(105vh) translateX(10vw);
+  }
+}
