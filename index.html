@@ -8,8 +8,30 @@
 <title>
 Tuanam'a &#128157;
 </title>
+<style>
+
+.loader {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background-color: #000;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+</style>
 </head>
 <body style="font-family:Verdana">
+
+<div class="loader" ><img src="img/loading.gif"></div>
+<script>
+window.onload = function()
+{$('.loader').fadeOut();}
+</script>
 
 <img id="play" onclick="toggleAudio()" src="src/play.png" class="img-fluid">
 <audio id='player' src='src/1.mp3'></audio>
